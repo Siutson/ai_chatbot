@@ -15,23 +15,43 @@
         },
 
         {"tag": "history",
-        "patterns": ["ile istnieje wasza pizzeria?", "kiedy została założona wasza pizzeria?", "Data założenia"],
-        "responses": [""]
+        "patterns": ["informacje", "info", "ile istnieje wasza pizzeria?", "kiedy została założona wasza pizzeria?", "data założenia"],
+        "responses": ["Jesteśmy dostępni od 12 lat, cieszymy się zaufaniem i masą zadowolonych klientów. :)"]
         },
 
-        {"tag": "",
-        "patterns": [""],
-        "responses": [""]
+        {"tag": "preptime",
+        "patterns": ["czas","przygotowanie","oczekiwanie","czas oczekiwania"],
+        "responses":["Gotowę pizzę otrzymasz od nas w ciągu 15-20 minut od złożenia zamówienia na miejscu, w przypadku dostawy ten czas wynosi przeważnie około 40 minut."]
         },
 
-        {"tag": "",
-        "patterns": [""],
-        "responses": [""]
+        {"tag": "size",
+        "patterns": ["rozmiar","wielkość","cm","średnica"],
+        "responses":["Dostępne mamy trzy wielkości pizzy: mała 25cm, średnica 30cm, duża 50cm, gigant 60cm"]
         },
 
-        {"tag": "",
-        "patterns": [""],
-        "responses": [""]
+        {"tag": "menu",
+        "patterns": ["menu","jadłospis","zestaw","spis","karta","repertuar"],
+        "responses":["Menu: Pizza Neapolitańska, Pizza Sycylijska, Pizza Rzymska, Pizza Pepperoni, Pizza Margherita, Pizza Serowa, Pizza Americana, Pizza Diablo"]
+        },
+
+        {"tag": "delivery",
+        "patterns": ["dostawa","przywóz","doręczenie","dostarczenie"],
+        "responses":["Dostawa obejmuje cały region Szczecina, jeżeli zamówienie wynosi powyżej 30zł to dostawa jest darmowa"]
+        },
+
+        {"tag": "ingredients",
+        "patterns": ["składniki","dodatki","przyprawy"],
+        "responses":["Przy zamówieniu dodatkowo można do pizzy dodać składniki, są to: krewetki, salami, szynka, bekon, kebab, bazylia, pomidor, rukola, pieczarki, kukurydza, sól, pieprz, chilli"]
+        },
+
+        {"tag": "sauces",
+        "patterns": ["sos","sosy","dip"],
+        "responses":["W naszej liście dostępnych sosów mamy: sos bbq, tabasco, sos pomidorowy, sos czosnkowy, sos ostry, ketchup"]
+        },
+
+        {"tag": "drinks",
+        "patterns": ["napoje","picie","cola","pepsi","woda"],
+        "responses":["W ofercie mamy: Pepsi, Coca-cola, Woda, Mirynda, Fanta, 7Up"]
         }
     ]
 }
