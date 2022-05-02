@@ -1,21 +1,21 @@
 {"intents": [
         {"tag": "greeting",
-        "patterns": ["Cześć", "Dzień dobry", "Witam", "Halo, ktoś tu jest?", "Co tam", "Halko"],
+        "patterns": ["cześć", "dzień dobry", "witam", "halo, ktoś tu jest?", "co tam", "halko"],
         "responses": ["Witamy w pizzerii!", "Miło Ciebie znów widzieć!", "Witam, w czym mogę pomóc?"]
         },
 
         {"tag": "goodbye",
-        "patterns": ["Do widzenia", "Do zobaczenia", "Dzięki, na razie", "Wychodzę"],
+        "patterns": ["do widzenia", "do zobaczenia", "dzięki", "wychodzę", "na razie"],
         "responses": ["Zapraszamy ponownie!!", "Smacznego, mamy nadzieję, że do nas jeszcze zawitasz! :)"]
         },
 
         {"tag": "hours",
-        "patterns": ["Godziny otwarcia", "Kiedy otwarte", "Kiedy jesteście otwarci"],
+        "patterns": ["godziny otwarcia", "kiedy otwarte", "kiedy jesteście otwarci"],
         "responses": ["Od poniedziałku do piątku, w godzinach 9-23"]
         },
 
         {"tag": "history",
-        "patterns": ["Ile istnieje wasza pizzeria?", "Kiedy została założona wasza pizzeria?", "Data założenia"],
+        "patterns": ["ile istnieje wasza pizzeria?", "kiedy została założona wasza pizzeria?", "Data założenia"],
         "responses": [""]
         },
 
